@@ -3,6 +3,28 @@
 ## Info serveur 
 
 [ServerSettings]
+ItemRepairDurabilityLossByRepairkitTier=(0.200000,0.200000,0.150000,0.100000,0.050000,0.025000)
+RegionAllowSouthAmerica=False
+ServerMergeDestination=
+ItemRepairMinimumDurability=0.500000
+RegionAllowOceania=False
+ServerMergeOutgoingTime=0
+BlueprintConfigVersion=25
+NPCCorpseLifeTime=600.000000
+HealthbarVisibilityDistance=15000.000000
+RegionAllowNorthAmerica=False
+AllowBuildingAnywhere=True
+ConfigVersion=13
+PlayerCorpseLifeTime=1800.000000
+RegionAllowWesternEurope=True
+BuildingValidationEnabled=False
+ServerCommunity=0
+CorpsesPerPlayer=10
+RegionAllowEasternEurope=False
+StabilityLossMultiplier=0.800000
+bCanBeDamaged=True
+ShowOnlinePlayers=0
+RegionAllowCentralEurope=True
 EventSystemEnabled=True
 OfflinePlayersUnconsciousBodiesHours=168
 DisconnectionGraceTime=180
@@ -21,12 +43,9 @@ KickAFKPercentage=80
 MaxAllowedPing=0
 ServerModList=
 
-DropInventoryOnDeath=0
+DropEquipmentOnDeath=False
 
 
-ServerCommunity=0
-ConfigVersion=13
-BlueprintConfigVersion=25
 BuildingPVPWhitelist=("80901","80111","80112","80915","80912")
 PlayerKnockbackMultiplier=1.000000
 NPCKnockbackMultiplier=1.000000
@@ -43,9 +62,9 @@ NPCDamageTakenMultiplier=1.000000
 PlayerEncumbranceMultiplier=1.000000
 PlayerEncumbrancePenaltyMultiplier=1.000000
 PlayerMovementSpeedScale=1.000000
-PlayerStaminaCostSprintMultiplier=1.000000
+PlayerStaminaCostSprintMultiplier=0.800000
 PlayerSprintSpeedScale=1.000000
-PlayerStaminaCostMultiplier=1.000000
+PlayerStaminaCostMultiplier=0.800000
 PlayerHealthRegenSpeedScale=1.000000
 PlayerXPRateMultiplier=2.000000
 PlayerXPKillMultiplier=2.000000
@@ -125,12 +144,12 @@ ServerMessageOfTheDay=
 
 
 
-ShowOnlinePlayers=0
-CorpsesPerPlayer=10
-PlayerCorpseLifeTime=1800.000000
-NPCCorpseLifeTime=600.000000
-ItemRepairMinimumDurability=0.500000
-ItemRepairDurabilityLossByRepairkitTier=(0.200000,0.200000,0.150000,0.100000,0.050000,0.025000)
+
+
+
+
+
+
 ItemRepairDurabilityLossPenaltyChance=0.500000
 ItemConvertionMultiplier=0.500000
 ThrallConversionMultiplier=0.500000
@@ -141,7 +160,7 @@ StaminaExhaustionTime=3.750000
 StaminaStaticRegenRateMultiplier=1.000000
 StaminaMovingRegenRateMultiplier=1.000000
 PlayerStaminaRegenSpeedScale=1.000000
-StaminaOnConsumeRegenPause=1.300000
+StaminaOnConsumeRegenPause=1.000000
 StaminaOnExhaustionRegenPause=2.750000
 ThrallScoutingTimeMinutes=10.000000
 ThrallMinDistanceAwayFromHome=5000.000000
@@ -159,7 +178,7 @@ DamageCooldownBeforeRescue=600
 ThrallCorruptionRemovalMultiplier=1.000000
 PlayerCorruptionGainMultiplier=1.000000
 PlayerCorruptionGainFromSorceryMultiplier=1.000000
-AnimalPenCraftingTimeMultiplier=0.500000
+AnimalPenCraftingTimeMultiplier=0.200000
 FeedBoxRangeMultiplier=0.500000
 BuildingDamageMultiplier=0.900000
 PathFollowingSendsAngularVelocity=False
@@ -215,25 +234,24 @@ ServerTransferServersWhitelist=
 
 
 
-RegionAllowCentralEurope=True
-RegionAllowEasternEurope=False
-RegionAllowWesternEurope=True
-RegionAllowNorthAmerica=False
-RegionAllowOceania=False
-RegionAllowSouthAmerica=False
+
+
+
+
+
+
 RegionBlockList=
 
 
 
 
-StabilityLossMultiplier=0.800000
-BuildingValidationEnabled=False
-AllowBuildingAnywhere=True
-HealthbarVisibilityDistance=15000.000000
-ServerMergeOutgoingTime=0
-ServerMergeDestination=
 
 
 
 
-bCanBeDamaged=True
+
+
+
+
+
+
